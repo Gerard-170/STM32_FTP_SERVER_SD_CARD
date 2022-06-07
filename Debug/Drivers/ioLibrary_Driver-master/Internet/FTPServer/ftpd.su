@@ -1,0 +1,12 @@
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:125:9:scan_files	96	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:162:5:get_filesize	584	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:177:5:fsprintf	20	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:198:6:ftpd_init	48	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:241:9:ftpd_run	32	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:363:5:proc_ftpd	272	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:680:5:pport	40	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:722:5:ftpd_dsock_ready	16	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:747:5:ftpd_listcmd	744	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:780:5:ftpd_retrcmd	744	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:857:5:ftpd_storcmd	744	static
+../Drivers/ioLibrary_Driver-master/Internet/FTPServer/ftpd.c:980:6:print_filedsc	16	static
