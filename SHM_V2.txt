@@ -1,0 +1,176 @@
+Configuration	SHM_V2
+STM32CubeMX 	6.5.0
+Date	05/27/2022
+MCU	STM32G474RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Single-ended	ADC1_IN1	PA0
+ADC1	IN2 Single-ended	ADC1_IN2	PA1
+ADC1	IN6 Single-ended	ADC1_IN6	PC0
+ADC1	IN7 Single-ended	ADC1_IN7	PC1
+ADC1	IN8 Single-ended	ADC1_IN8	PC2
+ADC1	IN9 Single-ended	ADC1_IN9	PC3
+ADC2	IN3 Single-ended	ADC2_IN3	PA6
+ADC2	IN4 Single-ended	ADC2_IN4	PA7
+ADC2	IN5 Single-ended	ADC2_IN5	PC4
+ADC2	IN11 Single-ended	ADC2_IN11	PC5
+ADC2	IN12 Single-ended	ADC2_IN12	PB2
+ADC2	IN14 Single-ended	ADC2_IN14	PB11
+LPUART1	Asynchronous	LPUART1_RX	PA3
+LPUART1	Asynchronous	LPUART1_TX	PA2
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB13
+SPI3	Full-Duplex Master	SPI3_MISO	PC11
+SPI3	Full-Duplex Master	SPI3_MOSI	PC12
+SPI3	Full-Duplex Master	SPI3_SCK	PC10
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	B1 [blue push button]
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	ADC1_IN6	
+9	PC1	ADC1_IN7	
+10	PC2	ADC1_IN8	
+11	PC3	ADC1_IN9	
+12	PA0	ADC1_IN1	
+13	PA1	ADC1_IN2	
+14	PA2	LPUART1_TX	LPUART1_TX [STLINKV3E_VCP_RX]
+17	PA3	LPUART1_RX	LPUART1_RX [STLINKV3E_VCP_TX]
+18	PA4	GPIO_Output	SD_CS
+19	PA5	GPIO_Output	LD2 [green led]
+20	PA6	ADC2_IN3	
+21	PA7	ADC2_IN4	
+22	PC4	ADC2_IN5	
+23	PC5	ADC2_IN11	
+26	PB2	ADC2_IN12	
+33	PB11	ADC2_IN14	
+35	PB13	SPI2_SCK	
+36	PB14	SPI2_MISO	
+37	PB15	SPI2_MOSI	
+38	PC6	GPIO_Input	IP_2
+40	PC8	GPIO_Input	IP_1
+41	PC9	GPIO_Input	IP_0
+49	PA13	SYS_JTMS-SWDIO	T_SWDIO
+50	PA14	SYS_JTCK-SWCLK	T_SWCLK
+52	PC10	SPI3_SCK	
+53	PC11	SPI3_MISO	
+54	PC12	SPI3_MOSI	
+55	PD2	GPIO_Output	CS_ETH
+56	PB3*	SYS_JTDO-SWO	T_SWO
+62	PB9	GPIO_Input	IP_3
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Single-ended	ADC1_IN1	PA0
+ADC1	IN2 Single-ended	ADC1_IN2	PA1
+ADC1	IN6 Single-ended	ADC1_IN6	PC0
+ADC1	IN7 Single-ended	ADC1_IN7	PC1
+ADC1	IN8 Single-ended	ADC1_IN8	PC2
+ADC1	IN9 Single-ended	ADC1_IN9	PC3
+ADC2	IN3 Single-ended	ADC2_IN3	PA6
+ADC2	IN4 Single-ended	ADC2_IN4	PA7
+ADC2	IN5 Single-ended	ADC2_IN5	PC4
+ADC2	IN11 Single-ended	ADC2_IN11	PC5
+ADC2	IN12 Single-ended	ADC2_IN12	PB2
+ADC2	IN14 Single-ended	ADC2_IN14	PB11
+LPUART1	Asynchronous	LPUART1_RX	PA3
+LPUART1	Asynchronous	LPUART1_TX	PA2
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+SPI2	Full-Duplex Master	SPI2_MISO	PB14
+SPI2	Full-Duplex Master	SPI2_MOSI	PB15
+SPI2	Full-Duplex Master	SPI2_SCK	PB13
+SPI3	Full-Duplex Master	SPI3_MISO	PC11
+SPI3	Full-Duplex Master	SPI3_MOSI	PC12
+SPI3	Full-Duplex Master	SPI3_SCK	PC10
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+SYS	Dead Battery Signals disabled	SYS_VS_DBSignals	VP_SYS_VS_DBSignals
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	B1 [blue push button]
+3	PC14-OSC32_IN	RCC_OSC32_IN	
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PF0-OSC_IN	RCC_OSC_IN	
+6	PF1-OSC_OUT	RCC_OSC_OUT	
+8	PC0	ADC1_IN6	
+9	PC1	ADC1_IN7	
+10	PC2	ADC1_IN8	
+11	PC3	ADC1_IN9	
+12	PA0	ADC1_IN1	
+13	PA1	ADC1_IN2	
+14	PA2	LPUART1_TX	LPUART1_TX [STLINKV3E_VCP_RX]
+17	PA3	LPUART1_RX	LPUART1_RX [STLINKV3E_VCP_TX]
+18	PA4	GPIO_Output	SD_CS
+19	PA5	GPIO_Output	LD2 [green led]
+20	PA6	ADC2_IN3	
+21	PA7	ADC2_IN4	
+22	PC4	ADC2_IN5	
+23	PC5	ADC2_IN11	
+26	PB2	ADC2_IN12	
+33	PB11	ADC2_IN14	
+35	PB13	SPI2_SCK	
+36	PB14	SPI2_MISO	
+37	PB15	SPI2_MOSI	
+38	PC6	GPIO_Input	IP_2
+40	PC8	GPIO_Input	IP_1
+41	PC9	GPIO_Input	IP_0
+49	PA13	SYS_JTMS-SWDIO	T_SWDIO
+50	PA14	SYS_JTCK-SWCLK	T_SWCLK
+52	PC10	SPI3_SCK	
+53	PC11	SPI3_MISO	
+54	PC12	SPI3_MOSI	
+55	PD2	GPIO_Output	CS_ETH
+56	PB3*	SYS_JTDO-SWO	T_SWO
+62	PB9	GPIO_Input	IP_3
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : SHM_V2
+Project Folder : C:\Users\pc\OneDrive\Mono\STM\STM32G474\SHM_V2
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G4 V1.5.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
